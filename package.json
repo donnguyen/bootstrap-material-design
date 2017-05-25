@@ -2,7 +2,7 @@
   "name": "mdbootstrap",
   "version": "4.3.2",
   "description": "Material Design for Bootstrap (MDB) is a powerful Material Design UI KIT for most popular HTML, CSS, and JS framework - Bootstrap.",
-  "main": "js/mdb.min.js",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -26,5 +26,12 @@
   "bugs": {
     "url": "https://github.com/mdbootstrap/bootstrap-material-design/issues"
   },
-  "homepage": "https://mdbootstrap.com"
+  "homepage": "https://mdbootstrap.com",
+  "devDependencies": {
+    "gulp-autoprefixer": "4.0.0",
+    "gulp-plumber": "1.1.0",
+    "gulp-rename": "1.2.2",
+    "gulp-sass": "3.1.0",
+    "gulp": "3.9.0"
+  }
 }
